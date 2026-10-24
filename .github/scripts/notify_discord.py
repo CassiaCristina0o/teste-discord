@@ -17,7 +17,7 @@ embed = {
         f"**Author:** {commit['author']['name']}\n"
         f"[Repository]({repo['html_url']}) · "
         f"[See the change]({commit['url']}) · "
-        f"[Action run]({os.environ['RUN_URL']})"
+        f"[View the site]({os.environ['SITE_URL']})"
     ),
 }
 
